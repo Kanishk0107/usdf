@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 });
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: "USDF | Unified Social Development Foundation",
+  title: "Unified Social Development Foundation (USDF) | India",
   description:
-    "A foundation for dignity, opportunity and shared progress. Explore USDF’s mission, leadership and six areas of social development.",
+    "USDF is a Section 8 nonprofit based in Uttarakhand, India. Explore our mission, six focus areas, leadership and registration details.",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -24,8 +24,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: site.url,
     siteName: site.name,
-    title: "USDF — A more inclusive tomorrow",
-    description: "Dignity. Opportunity. Shared progress.",
+    title: "Unified Social Development Foundation (USDF)",
+    description:
+      "A Section 8 nonprofit in Uttarakhand, India, focused on inclusive social development.",
   },
 };
 export default function RootLayout({
@@ -42,4 +43,3 @@ export default function RootLayout({
     </html>
   );
 }
-

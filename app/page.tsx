@@ -2,9 +2,41 @@ import Image from "next/image";
 import logo from "@/public/brand/usdf-original.png";
 import { site, pillars } from "@/lib/site";
 import { Navigation } from "./navigation";
+const identity = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${site.url}/#website`,
+      name: "USDF",
+      alternateName: "Unified Social Development Foundation",
+      url: `${site.url}/`,
+      publisher: { "@id": `${site.url}/#organization` },
+    },
+    {
+      "@type": "Organization",
+      "@id": `${site.url}/#organization`,
+      name: "Unified Social Development Foundation",
+      alternateName: "USDF",
+      url: `${site.url}/`,
+      logo: `${site.url}/brand/usdf-original.png`,
+      email: site.email,
+      foundingDate: "2026-10-08",
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "Uttarakhand",
+        addressCountry: "IN",
+      },
+    },
+  ],
+};
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(identity) }}
+      />
       <header className="header">
         <a className="brand" href="/" aria-label="USDF home">
           <Image src={logo} alt="" width={60} height={60} sizes="60px" />
