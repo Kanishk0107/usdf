@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "A foundation for dignity, opportunity and shared progress. Explore USDF’s mission, leadership and six areas of social development.",
   alternates: { canonical: "/" },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     locale: "en_IN",
@@ -42,3 +42,4 @@ export default function RootLayout({
     </html>
   );
 }
+
