@@ -34,6 +34,18 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-593LN537"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());",
+          }}
+        />
+      </head>
       <body className={inter.variable + " " + playfair.variable}>
         <a className="skip-link" href="#main">
           Skip to content
