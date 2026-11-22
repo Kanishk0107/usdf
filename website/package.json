@@ -1,1 +1,1 @@
-{"name":"usdf-website","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"node server.mjs","test":"node check.mjs && node verify-expansion.mjs && node test-donations.mjs"},"devDependencies":{"linkedom":"^0.18.15","sharp":"^0.35.5"}}
+{"name":"usdf-website","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"node server.mjs","test":"node check.mjs && node verify-expansion.mjs && node test-donations.mjs"},"devDependencies":{"linkedom":"^0.18.15","sharp":"^0.35.5"},"dependencies":{"@vercel/analytics":"^2.0.1"}}
