@@ -1,0 +1,146 @@
+{
+  "mission": {
+    "en": {
+      "title": "Opportunity with dignity",
+      "kicker": "Our mission",
+      "intro": "Rooted in Uttarakhand, Unified Social Development Foundation aims to advance inclusive social development through education, wellbeing and stronger, more sustainable communities.",
+      "sections": [
+        {"heading": "Participation begins with inclusion", "body": "Our purpose includes children, young people, women and adolescent girls, older people, persons with disabilities and disadvantaged rural communities. Recognising barriers to participation and respecting each person’s dignity are central to that purpose."},
+        {"heading": "Six connected priorities", "body": "Education and skills, healthcare and nutrition, women and child welfare, rural livelihoods, digital empowerment and environmental sustainability belong together. Learning opportunities, health, practical skills and care for shared resources can reinforce one another."},
+        {"heading": "What these priorities mean", "body": "Our charitable objects provide room for learning support, career guidance, preventive health awareness, livelihood skills, digital literacy and environmental education. These are intended areas of work, rather than a record of programmes delivered or outcomes achieved."},
+        {"heading": "A shared purpose, with accountability", "body": "Inclusion, connection and accountability guide our approach. We distinguish our intentions from documented results, and board oversight from day-to-day executive responsibilities. People interested in contributing time, knowledge or support can begin with an enquiry to the USDF office."}
+      ]
+    },
+    "hi": {
+      "title": "सम्मान के साथ अवसर",
+      "kicker": "हमारा उद्देश्य",
+      "intro": "उत्तराखंड में स्थित Unified Social Development Foundation का उद्देश्य शिक्षा, स्वास्थ्य और अधिक मजबूत, टिकाऊ समुदायों के माध्यम से समावेशी सामाजिक विकास को आगे बढ़ाना है।",
+      "sections": [
+        {"heading": "समावेश से शुरू होती है भागीदारी", "body": "हमारे उद्देश्य में बच्चे, युवा, महिलाएं और किशोरियां, वरिष्ठ नागरिक, दिव्यांग व्यक्ति और वंचित ग्रामीण समुदाय शामिल हैं। भागीदारी में आने वाली बाधाओं को समझना और हर व्यक्ति के सम्मान का ध्यान रखना इस उद्देश्य का आधार है।"},
+        {"heading": "एक-दूसरे से जुड़ी छह प्राथमिकताएं", "body": "शिक्षा और कौशल, स्वास्थ्य और पोषण, महिला और बाल कल्याण, ग्रामीण आजीविका, डिजिटल सशक्तिकरण और पर्यावरणीय स्थिरता एक-दूसरे से जुड़े हैं। सीखने के अवसर, स्वास्थ्य, व्यावहारिक कौशल और साझा संसाधनों की देखभाल एक-दूसरे को मजबूत कर सकते हैं।"},
+        {"heading": "इन प्राथमिकताओं का अर्थ", "body": "हमारे संस्थागत उद्देश्यों में पढ़ाई में सहायता, करियर मार्गदर्शन, निवारक स्वास्थ्य जागरूकता, आजीविका कौशल, डिजिटल साक्षरता और पर्यावरण शिक्षा जैसे क्षेत्र शामिल हैं। ये प्रस्तावित कार्यक्षेत्र हैं; इन्हें पूरे हो चुके कार्यक्रमों या प्राप्त परिणामों की सूची के रूप में नहीं पढ़ना चाहिए।"},
+        {"heading": "साझा उद्देश्य और जवाबदेही", "body": "समावेश, आपसी जुड़ाव और जवाबदेही हमारे दृष्टिकोण का आधार हैं। हम अपने इरादों और दस्तावेज़ों से पुष्ट परिणामों के बीच, तथा निदेशक मंडल की निगरानी और रोज़मर्रा के कार्यकारी दायित्वों के बीच स्पष्ट अंतर रखते हैं। समय, ज्ञान या सहयोग देना चाहें तो USDF कार्यालय से बातचीत शुरू कर सकते हैं।"}
+      ]
+    }
+  },
+  "governance": {
+    "en": {
+      "title": "Clear roles. Shared responsibility.",
+      "kicker": "Governance",
+      "intro": "USDF’s leadership structure separates the oversight of the Board of Directors from executive work. Understanding those roles helps explain who provides direction and who coordinates operations.",
+      "sections": [
+        {"heading": "Board oversight", "body": "The supplied leadership records identify Manjula, Mamta Sharma and Simran as directors. Manjula is also identified as chief functionary. The board provides institutional direction and oversight of the foundation’s charitable purpose."},
+        {"heading": "Executive responsibilities", "body": "Kanishk Bhardwaj is identified as Chief Executive Officer. The executive role covers operational coordination, community outreach, volunteer coordination and partnership conversations under board oversight. The CEO role is distinct from membership of the Board of Directors."},
+        {"heading": "Purpose and evidence", "body": "The six focus areas group the foundation’s charitable objects into subjects visitors can understand. They do not establish that a particular project has taken place. Claims about activities and outcomes need supporting evidence of their own."},
+        {"heading": "Public information and personal privacy", "body": "Public accountability does not require disclosure of personal identity documents. Aadhaar and PAN details, personal residential information and signatures should remain outside public website content. For questions about the foundation or its governance, contact office.usdf@gmail.com."}
+      ]
+    },
+    "hi": {
+      "title": "स्पष्ट भूमिकाएं, साझा जिम्मेदारी",
+      "kicker": "संचालन और निगरानी",
+      "intro": "USDF की नेतृत्व व्यवस्था में निदेशक मंडल की निगरानी और कार्यकारी कामकाज की भूमिकाएं अलग हैं। इन भूमिकाओं से स्पष्ट होता है कि संस्थागत दिशा कौन देता है और दैनिक कार्यों का समन्वय कौन करता है।",
+      "sections": [
+        {"heading": "निदेशक मंडल की निगरानी", "body": "उपलब्ध नेतृत्व अभिलेखों में Manjula, Mamta Sharma और Simran को निदेशक बताया गया है। Manjula को मुख्य पदाधिकारी भी बताया गया है। निदेशक मंडल संस्थागत दिशा देता है और फाउंडेशन के परोपकारी उद्देश्य की निगरानी करता है।"},
+        {"heading": "कार्यकारी जिम्मेदारियां", "body": "Kanishk Bhardwaj को मुख्य कार्यकारी अधिकारी यानी CEO बताया गया है। निदेशक मंडल की निगरानी में इस भूमिका में कामकाज का समन्वय, समुदायों से संपर्क, स्वयंसेवकों का समन्वय और साझेदारी संबंधी बातचीत शामिल हैं। CEO की भूमिका निदेशक मंडल की सदस्यता से अलग है।"},
+        {"heading": "उद्देश्य और प्रमाण", "body": "छह प्रमुख कार्यक्षेत्र फाउंडेशन के परोपकारी उद्देश्यों को समझने में मदद करते हैं। इनके उल्लेख से यह सिद्ध नहीं होता कि कोई विशेष परियोजना पूरी हो चुकी है। गतिविधियों और परिणामों के दावों के लिए अलग से सहायक प्रमाण आवश्यक हैं।"},
+        {"heading": "सार्वजनिक जानकारी और निजी विवरण", "body": "सार्वजनिक जवाबदेही के लिए निजी पहचान दस्तावेज़ उजागर करना आवश्यक नहीं है। आधार और PAN का विवरण, निजी आवासीय जानकारी और हस्ताक्षर सार्वजनिक वेबसाइट सामग्री से बाहर रहने चाहिए। फाउंडेशन या उसकी संचालन व्यवस्था के बारे में प्रश्न हों तो office.usdf@gmail.com पर संपर्क करें।"}
+      ]
+    }
+  },
+  "donor-guide": {
+    "en": {
+      "title": "Before you offer support",
+      "kicker": "Donor guide",
+      "intro": "Take time to understand USDF’s purpose and ask questions about support. A website enquiry starts a conversation; it does not make a payment or confirm a donation.",
+      "sections": [
+        {"heading": "Understand the intended work", "body": "USDF’s six priorities cover education, health and nutrition, social welfare, rural livelihoods, digital empowerment and the environment. They describe charitable intentions. They should not be read as evidence of completed projects, measured impact or a promise of a particular result from your contribution."},
+        {"heading": "Send an enquiry first", "body": "Use the support enquiry to explain what you would like to discuss. Review the message before continuing to WhatsApp, then press Send there yourself. Opening WhatsApp does not confirm delivery, acceptance of support or payment. You can also contact office.usdf@gmail.com or +91 82730 56607."},
+        {"heading": "Keep enquiry and payment separate", "body": "Online payments are not enabled on this website yet. Ask the office for the currently approved payment route and confirm the legal recipient before paying. Preparing or sending a WhatsApp enquiry does not complete a payment. An enquiry acknowledgement is not a donation receipt."},
+        {"heading": "Ask about documentation and tax treatment", "body": "Do not assume that a contribution qualifies for tax relief. This guide gives no guarantee of an 80G deduction or other tax benefit. Ask the office about the documentation relevant to your proposed support before making a payment. Keep Aadhaar, PAN, bank details and other sensitive documents out of your initial enquiry."}
+      ]
+    },
+    "hi": {
+      "title": "सहयोग देने से पहले",
+      "kicker": "दानदाता मार्गदर्शिका",
+      "intro": "USDF के उद्देश्य को समझें और सहयोग से जुड़े प्रश्न पूछें। वेबसाइट पर पूछताछ से बातचीत शुरू होती है; इससे भुगतान नहीं होता और दान की पुष्टि नहीं होती।",
+      "sections": [
+        {"heading": "प्रस्तावित कार्य को समझें", "body": "USDF की छह प्राथमिकताएं शिक्षा, स्वास्थ्य और पोषण, सामाजिक कल्याण, ग्रामीण आजीविका, डिजिटल सशक्तिकरण और पर्यावरण हैं। ये परोपकारी उद्देश्य बताते हैं। इन्हें पूरी हो चुकी परियोजनाओं, मापे गए प्रभाव या आपके योगदान से किसी निश्चित परिणाम के वादे के रूप में नहीं पढ़ना चाहिए।"},
+        {"heading": "पहले पूछताछ भेजें", "body": "सहयोग संबंधी पूछताछ में बताएं कि आप किस विषय पर बात करना चाहते हैं। WhatsApp पर आगे बढ़ने से पहले संदेश देखें और वहां स्वयं भेजें बटन दबाएं। WhatsApp खुलने से संदेश पहुंचने, सहयोग स्वीकार होने या भुगतान की पुष्टि नहीं होती। आप office.usdf@gmail.com या +91 82730 56607 पर भी संपर्क कर सकते हैं।"},
+        {"heading": "पूछताछ और भुगतान अलग चरण हैं", "body": "इस वेबसाइट पर ऑनलाइन भुगतान अभी उपलब्ध नहीं हैं। कार्यालय से वर्तमान स्वीकृत भुगतान माध्यम पूछें और भुगतान से पहले कानूनी प्राप्तकर्ता की पुष्टि करें। WhatsApp पर पूछताछ तैयार करने या भेजने से भुगतान पूरा नहीं होता। पूछताछ की पावती दान की रसीद नहीं है।"},
+        {"heading": "दस्तावेज़ और कर लाभ के बारे में पूछें", "body": "यह न मानें कि योगदान पर कर छूट मिलेगी। यह मार्गदर्शिका 80G कटौती या किसी अन्य कर लाभ की गारंटी नहीं देती। भुगतान से पहले अपने प्रस्तावित सहयोग से संबंधित दस्तावेज़ों के बारे में कार्यालय से पूछें। शुरुआती पूछताछ में आधार, PAN, बैंक विवरण या अन्य संवेदनशील दस्तावेज़ शामिल न करें।"}
+      ]
+    }
+  },
+  "giving-policy": {
+    "en": {
+      "title": "Clarity when giving",
+      "kicker": "Giving policy",
+      "intro": "Support information should make clear what an enquiry does, where an external payment page begins and which claims a visitor should not assume.",
+      "sections": [
+        {"heading": "An enquiry is a conversation", "body": "The website’s support flow prepares a message for review and handoff to WhatsApp. You choose whether to send it there. This step does not accept money, issue a receipt or confirm a donation. A donation amount is not required to begin an enquiry."},
+        {"heading": "External support page", "body": "The supplied support destination is https://buymeacoffee.com/usdf. It is an external website, separate from the USDF enquiry flow. Questions about how to support the foundation can be directed to the office before you follow a payment link."},
+        {"heading": "No assumed tax or foreign contribution eligibility", "body": "Website content must not be treated as a guarantee of tax relief or permission to make a foreign contribution. No 80G, 12A or FCRA eligibility is asserted here. Ask the office for relevant documentation rather than inferring eligibility from the foundation’s name or purpose."},
+        {"heading": "Share only what is needed", "body": "A first enquiry needs a brief explanation of your question, not identity documents or financial records. Do not include Aadhaar, PAN, bank details, medical histories or private beneficiary information. For support questions, use office.usdf@gmail.com or +91 82730 56607."}
+      ]
+    },
+    "hi": {
+      "title": "सहयोग में स्पष्टता",
+      "kicker": "दान संबंधी नीति",
+      "intro": "सहयोग संबंधी जानकारी से स्पष्ट होना चाहिए कि पूछताछ से क्या होता है, बाहरी भुगतान पृष्ठ कहां शुरू होता है और किन बातों को स्वतः मान लेना उचित नहीं है।",
+      "sections": [
+        {"heading": "पूछताछ से बातचीत शुरू होती है", "body": "वेबसाइट का सहयोग विकल्प समीक्षा के लिए संदेश तैयार करता है और WhatsApp पर आगे बढ़ने देता है। वहां संदेश भेजने का निर्णय आपका है। इस चरण से धन स्वीकार नहीं होता, रसीद जारी नहीं होती और दान की पुष्टि नहीं होती। पूछताछ शुरू करने के लिए दान की राशि बताना आवश्यक नहीं है।"},
+        {"heading": "बाहरी सहयोग पृष्ठ", "body": "उपलब्ध सहयोग लिंक https://buymeacoffee.com/usdf है। यह बाहरी वेबसाइट है और USDF की पूछताछ प्रक्रिया से अलग है। भुगतान लिंक खोलने से पहले फाउंडेशन को सहयोग देने के तरीके के बारे में कार्यालय से प्रश्न पूछ सकते हैं।"},
+        {"heading": "कर लाभ या विदेशी योगदान की पात्रता न मानें", "body": "वेबसाइट की सामग्री को कर छूट की गारंटी या विदेशी योगदान देने की अनुमति न मानें। यहां 80G, 12A या FCRA संबंधी पात्रता का दावा नहीं किया गया है। फाउंडेशन के नाम या उद्देश्य से पात्रता मान लेने के बजाय कार्यालय से संबंधित दस्तावेज़ों के बारे में पूछें।"},
+        {"heading": "केवल आवश्यक जानकारी साझा करें", "body": "पहली पूछताछ में अपने प्रश्न का संक्षिप्त विवरण दें; पहचान दस्तावेज़ या वित्तीय अभिलेख आवश्यक नहीं हैं। आधार, PAN, बैंक विवरण, चिकित्सा इतिहास या लाभार्थियों की निजी जानकारी शामिल न करें। सहयोग संबंधी प्रश्नों के लिए office.usdf@gmail.com या +91 82730 56607 का उपयोग करें।"}
+      ]
+    }
+  },
+  "volunteer-guide": {
+    "en": {
+      "title": "Offer your time and skills",
+      "kicker": "Volunteer guide",
+      "intro": "Introduce yourself and tell USDF how you would like to contribute. A volunteer enquiry helps begin a discussion about your interests, skills and availability.",
+      "sections": [
+        {"heading": "Choose a relevant interest", "body": "You can express interest in education and skills, health and nutrition awareness, women and child welfare, rural livelihoods, digital literacy or environmental awareness. These are intended focus areas, so expressing interest does not mean a particular volunteer role or active project is available."},
+        {"heading": "Explain what you can offer", "body": "Share your name, city or region, relevant skills and a short description of your proposed contribution. Availability can help frame the conversation: for example, weekdays, weekends, flexible or remote time, or a short project. Be clear about the time you can realistically offer."},
+        {"heading": "Review and send your message", "body": "Check the enquiry preview before continuing to WhatsApp. You must press Send in WhatsApp for the message to be sent. Preparing a draft or opening the app does not confirm delivery or acceptance as a volunteer. If needed, contact the office at office.usdf@gmail.com."},
+        {"heading": "Respect privacy from the start", "body": "Keep your introduction focused on your contribution. Do not send identity documents, bank details, medical histories or private information about children or other community members. A general enquiry does not require sensitive personal records."}
+      ]
+    },
+    "hi": {
+      "title": "अपना समय और कौशल दें",
+      "kicker": "स्वयंसेवक मार्गदर्शिका",
+      "intro": "अपना परिचय दें और USDF को बताएं कि आप कैसे योगदान देना चाहते हैं। स्वयंसेवा संबंधी पूछताछ से आपकी रुचियों, कौशल और उपलब्ध समय पर बातचीत शुरू होती है।",
+      "sections": [
+        {"heading": "अपनी रुचि का क्षेत्र चुनें", "body": "आप शिक्षा और कौशल, स्वास्थ्य और पोषण जागरूकता, महिला और बाल कल्याण, ग्रामीण आजीविका, डिजिटल साक्षरता या पर्यावरण जागरूकता में रुचि बता सकते हैं। ये प्रस्तावित कार्यक्षेत्र हैं। रुचि बताने का अर्थ यह नहीं है कि कोई विशेष स्वयंसेवी भूमिका या सक्रिय परियोजना उपलब्ध है।"},
+        {"heading": "बताएं कि आप क्या योगदान दे सकते हैं", "body": "अपना नाम, शहर या क्षेत्र, संबंधित कौशल और प्रस्तावित योगदान का संक्षिप्त विवरण दें। उपलब्ध समय बताने से बातचीत में मदद मिलती है, जैसे सप्ताह के कामकाजी दिन, सप्ताहांत, लचीला या दूर से दिया जाने वाला समय, या छोटी परियोजना। जितना समय वास्तव में दे सकते हैं, उसे स्पष्ट बताएं।"},
+        {"heading": "संदेश देखें और भेजें", "body": "WhatsApp पर आगे बढ़ने से पहले पूछताछ का प्रारूप जांचें। संदेश भेजने के लिए WhatsApp में स्वयं भेजें बटन दबाना होगा। प्रारूप तैयार होने या ऐप खुलने से संदेश पहुंचने या स्वयंसेवक के रूप में स्वीकृति की पुष्टि नहीं होती। आवश्यकता हो तो office.usdf@gmail.com पर कार्यालय से संपर्क करें।"},
+        {"heading": "शुरुआत से निजता का ध्यान रखें", "body": "अपने परिचय में योगदान से जुड़ी बातें रखें। पहचान दस्तावेज़, बैंक विवरण, चिकित्सा इतिहास या बच्चों और अन्य सामुदायिक सदस्यों की निजी जानकारी न भेजें। सामान्य पूछताछ के लिए संवेदनशील निजी अभिलेख आवश्यक नहीं हैं।"}
+      ]
+    }
+  },
+  "partnerships": {
+    "en": {
+      "title": "Start a collaboration conversation",
+      "kicker": "Partnerships",
+      "intro": "Organisations, educational institutions, foundations and CSR teams can introduce a proposal connected with USDF’s purpose. The starting point is a clear account of what you would like to explore together.",
+      "sections": [
+        {"heading": "Find a shared area of interest", "body": "Proposals may relate to education and skills, health awareness, social welfare, rural livelihoods, digital empowerment or the environment. Possible subjects for discussion include joint programme design, professional knowledge sharing, mentorship, community outreach and volunteer mobilisation."},
+        {"heading": "Make your introduction useful", "body": "Tell us your organisation’s name and type, who is making contact, the relevant focus area and how you would like to collaborate. A concise description of the contribution or idea gives the team a clearer basis for discussion than a general expression of interest alone."},
+        {"heading": "Discuss support without assuming eligibility", "body": "CSR teams can enquire about proposed support, but an invitation to discuss collaboration does not establish funding eligibility or confirm a partnership. The foundation’s focus areas also do not establish that a programme is already operating. Ask about the documentation relevant to your proposal."},
+        {"heading": "Review the enquiry before sending", "body": "Review your message, continue to WhatsApp and press Send there. The website handoff does not confirm message delivery or create an agreement. Keep confidential organisational records and private beneficiary details out of the initial enquiry. You can also write to office.usdf@gmail.com or call +91 82730 56607."}
+      ]
+    },
+    "hi": {
+      "title": "साझेदारी पर बातचीत शुरू करें",
+      "kicker": "साझेदारी",
+      "intro": "संगठन, शिक्षण संस्थान, फाउंडेशन और CSR टीमें USDF के उद्देश्य से जुड़ा प्रस्ताव साझा कर सकती हैं। शुरुआत इस स्पष्ट विवरण से करें कि आप मिलकर क्या करना या समझना चाहते हैं।",
+      "sections": [
+        {"heading": "साझी रुचि का क्षेत्र पहचानें", "body": "प्रस्ताव शिक्षा और कौशल, स्वास्थ्य जागरूकता, सामाजिक कल्याण, ग्रामीण आजीविका, डिजिटल सशक्तिकरण या पर्यावरण से संबंधित हो सकते हैं। बातचीत के विषयों में मिलकर कार्यक्रम की रूपरेखा बनाना, पेशेवर ज्ञान साझा करना, मार्गदर्शन, समुदायों से संपर्क और स्वयंसेवकों को जोड़ना शामिल हो सकते हैं।"},
+        {"heading": "उपयोगी परिचय दें", "body": "अपने संगठन का नाम और प्रकार, संपर्क करने वाले व्यक्ति का परिचय, संबंधित कार्यक्षेत्र और सहयोग का प्रस्ताव बताएं। केवल सामान्य रुचि जताने के बजाय योगदान या विचार का संक्षिप्त विवरण देने से टीम को बातचीत का स्पष्ट आधार मिलता है।"},
+        {"heading": "पात्रता माने बिना सहयोग पर चर्चा करें", "body": "CSR टीमें प्रस्तावित सहयोग के बारे में पूछ सकती हैं, लेकिन चर्चा का आमंत्रण धन प्राप्त करने की पात्रता या साझेदारी की पुष्टि नहीं है। फाउंडेशन के कार्यक्षेत्रों का उल्लेख भी किसी कार्यक्रम के पहले से चलने का प्रमाण नहीं है। अपने प्रस्ताव से संबंधित दस्तावेज़ों के बारे में पूछें।"},
+        {"heading": "भेजने से पहले पूछताछ देखें", "body": "संदेश जांचें, WhatsApp पर आगे बढ़ें और वहां स्वयं भेजें बटन दबाएं। वेबसाइट से आगे बढ़ने पर संदेश पहुंचने की पुष्टि नहीं होती और कोई समझौता नहीं बनता। शुरुआती पूछताछ में संगठन के गोपनीय अभिलेख और लाभार्थियों के निजी विवरण शामिल न करें। आप office.usdf@gmail.com पर लिख सकते हैं या +91 82730 56607 पर कॉल कर सकते हैं।"}
+      ]
+    }
+  }
+}

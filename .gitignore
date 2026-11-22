@@ -41,3 +41,16 @@ yarn-error.log*
 next-env.d.ts
 /test-results/
 
+# Private local source material and generated website files
+/Legal papers/
+/MD files/
+/Reference UI/
+/website/docs/
+/website/IMPLEMENTATION_STATUS.md
+/website/node_modules/
+/website/dist/
+/website/.vercel/
+*.key
+*.p12
+*.pfx
+

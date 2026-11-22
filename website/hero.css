@@ -1,0 +1,26 @@
+/* Centered hero and floating glass navigation adapted from the supplied reference. */
+body:has(.hero){background:#f5f8f6}
+body:has(.hero) #header{position:absolute;inset:18px 20px auto;background:transparent;border:0}
+body:has(.hero) .nav{max-width:1240px;padding:10px 18px;border:1px solid #ffffff95;border-radius:60px;background:#ffffffe0;backdrop-filter:blur(22px) saturate(150%);box-shadow:0 12px 35px #0e293112;gap:20px}
+body:has(.hero) .nav .brand{font-size:23px}
+body:has(.hero) .brand img{width:46px;height:46px}
+body:has(.hero) .nav>a:not(.brand){padding:9px 12px;border-radius:30px;transition:background .2s,color .2s}
+body:has(.hero) .nav>a:not(.brand):not(.button):is(:hover,:focus-visible){background:#d7e8e6}
+body:has(.hero) .nav .button.red{padding:12px 20px;border-radius:30px}
+.hero{min-height:840px;align-items:flex-start;background:#f0f6f3;color:#0e2931;isolation:isolate;padding-bottom:340px}
+.hero:after{background:radial-gradient(ellipse at 50% 0%,#b6d6cf80,transparent 68%);z-index:-1}
+.hero>img{inset:auto 24px 24px;width:calc(100% - 48px);height:330px;border-radius:22px;object-fit:cover;object-position:center 44%;z-index:0}
+.hero .wrap{text-align:center;padding:160px 28px 48px;max-width:1000px;z-index:1}
+.hero .eyebrow{color:#287574;letter-spacing:.025em;font-size:14px}
+.hero h1{font-size:clamp(42px,5.6vw,76px);max-width:900px;margin:20px auto;line-height:1.06;letter-spacing:-.055em}
+.hero p{color:#4a6265;max-width:600px;margin:0 auto 24px;font-size:18px;min-height:31px}
+.hero #hero-link{background:#12484c;color:white;border-radius:30px;padding:13px 25px;box-shadow:0 5px 14px #12484c18}
+.hero .controls{left:50%;transform:translateX(-50%);bottom:44px;padding:9px;border-radius:40px;background:#0e2931a6;backdrop-filter:blur(15px);width:max-content;max-width:calc(100% - 56px);flex-wrap:nowrap;gap:7px}
+.hero .controls button{flex-shrink:0;width:32px;height:32px;font-size:14px}
+.hero .controls button.active{background:#d7e8e6;color:#0e2931;border-color:#d7e8e6}
+.intro-strip{background:#f5f8f6;color:#385b5b;border-bottom:1px solid #d5dfda;gap:65px;padding:24px}
+@media(min-width:1450px){.hero>img{left:calc((100% - 1320px)/2);width:1320px}}
+@media(max-width:1100px){body:has(.hero) .nav{gap:10px}body:has(.hero) .nav>a:not(.brand){padding:8px}.hero .wrap{padding-top:155px}}
+@media(max-width:900px){body:has(.hero) #header{inset:12px 14px auto}body:has(.hero) .nav{border-radius:30px;padding:8px 14px}body:has(.hero) .nav.open{border-radius:25px;background:#fffffff5}body:has(.hero) .nav.open>a:not(.brand){padding:10px 14px}.hero{min-height:820px}.hero .wrap{padding-top:145px}.hero>img{inset:auto 16px 16px;width:calc(100% - 32px);height:340px}.hero:after{background:radial-gradient(ellipse at top,#bdddd580,transparent 70%)}.intro-strip{gap:16px 32px}}
+@media(max-width:600px){.hero{min-height:790px;padding-bottom:320px}.hero .wrap{padding:135px 22px 40px}.hero h1{font-size:44px;margin:20px auto}.hero p{font-size:16px;min-height:54px}.hero>img{height:300px;object-position:58% center;border-radius:18px}.hero .controls{bottom:32px;right:auto;gap:4px;padding:7px}.hero .controls button{width:27px;height:30px;font-size:13px}.intro-strip{justify-content:center;text-align:center;font-size:13px}.brand small{max-width:130px}}
+@media(prefers-reduced-motion:reduce){body:has(.hero) .nav>a{transition:none}}
