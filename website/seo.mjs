@@ -1,5 +1,5 @@
 // Call after rendering main content. No deployment URL is inferred from the DOM.
-export function applySEO(document, { pathname = '/', lang, origin } = {}) {
+export function applySEO(document, { pathname = '/', lang, origin, indexingEnabled = false } = {}) {
   const head = document.head;
   if (!head) return;
   const clean = value => String(value || '').replace(/\s+/gu, ' ').trim();
@@ -54,8 +54,8 @@ export function applySEO(document, { pathname = '/', lang, origin } = {}) {
   meta('twitter:title', title);
   meta('twitter:description', description);
   const host = (base?.hostname || document.location?.hostname || '').toLowerCase();
-  const preview = !base || /(^|[.\-])(localhost|staging|stage|preview|dev|test)([.\-]|$)/u.test(host) ||
-    /\.(localhost|local|test|invalid|vercel\.app|netlify\.app|pages\.dev)$/u.test(host) ||
+  const preview = !indexingEnabled || !base || /(^|[.\-])(localhost|staging|stage|preview|dev|test)([.\-]|$)/u.test(host) ||
+    /\.(localhost|local|test|invalid)$/u.test(host) ||
     host === '[::1]' || /^127\./u.test(host) || /^10\./u.test(host) || /^192\.168\./u.test(host) ||
     /^172\.(1[6-9]|2\d|3[01])\./u.test(host) || host === '0.0.0.0';
   if (preview) {
