@@ -85,6 +85,12 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 }
 @keyframes usdf-menu-rise{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open>a:not(.brand):not(.button){animation:none}}
+@media(max-width:900px){
+  .nav.open::before{content:'Choose a starting point'}
+  .nav.open>a[href$="/our-work/"]{grid-column:1 / -1;min-height:76px;background:#e6eee9;border-color:#b9cec4;font-size:18px;font-weight:600}
+  .nav.open>a[href$="/our-work/"]::after{content:'See what we do  ↗';font-size:13px;font-weight:500;color:#315a73}
+  .nav.open>a.button{grid-column:1 / -1;width:100%;min-height:60px;border-radius:14px;font-size:15px;letter-spacing:.01em}
+}
 /* Distinctive mobile mode: an editorial foundation index. */
 @media(max-width:900px){
   .nav.open{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:14px;border-radius:24px}
