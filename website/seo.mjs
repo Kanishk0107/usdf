@@ -84,8 +84,19 @@ export function applySEO(document, { pathname = '/', lang, origin, indexingEnabl
     for (const language of ['en', 'hi']) link('alternate', absolute(`/${language}${suffix}`), language);
   }
   if (!heading || !body) return;
-  const graph = [{ '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical,
-    name: title, description, inLanguage: locale }];
+  const graph = [
+    { '@type': 'WebSite', '@id': `${base.origin}/#website`, url: `${base.origin}/`,
+      name: 'Unified Social Development Foundation', alternateName: 'USDF',
+      publisher: { '@id': `${base.origin}/#organization` } },
+    { '@type': 'Organization', '@id': `${base.origin}/#organization`,
+      name: 'Unified Social Development Foundation', alternateName: 'USDF',
+      url: `${base.origin}/`, logo: `${base.origin}/assets/usdf-logo.webp`,
+      email: 'office.usdf@gmail.com', areaServed: { '@type': 'Place', name: 'Uttarakhand, India' },
+      description: 'A foundation based in Uttarakhand, India, focused on inclusive social development.' },
+    { '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical,
+      name: title, description, inLanguage: locale, isPartOf: { '@id': `${base.origin}/#website` },
+      about: { '@id': `${base.origin}/#organization` } }
+  ];
   // Use only labels and links present on the rendered page; never invent slug labels.
   const crumbs = [];
   const parts = path.split('/').filter(Boolean);
@@ -100,10 +111,18 @@ export function applySEO(document, { pathname = '/', lang, origin, indexingEnabl
   crumbs.push({ name: heading, item: canonical });
   if (crumbs.length > 1) {
     const id = `${canonical}#breadcrumb`;
-    graph[0].breadcrumb = { '@id': id };
+    graph[2].breadcrumb = { '@id': id };
     graph.push({ '@type': 'BreadcrumbList', '@id': id,
       itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, ...crumb })) });
   }
+  const faqItems = [...document.querySelectorAll('details')].map(detail => {
+    const question = text(detail.querySelector('summary'));
+    const answer = text(detail.querySelector('p'));
+    return question && answer ? { '@type': 'Question', name: question,
+      acceptedAnswer: { '@type': 'Answer', text: answer } } : null;
+  }).filter(Boolean);
+  if (faqItems.length) graph.push({ '@type': 'FAQPage', '@id': `${canonical}#faq`,
+    mainEntity: faqItems });
   const script = document.createElement('script');
   script.type = 'application/ld+json';
   script.setAttribute('data-seo', 'generated');
