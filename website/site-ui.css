@@ -90,6 +90,8 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
   .nav.open>a[href$="/our-work/"]{grid-column:1 / -1;min-height:76px;background:#e6eee9;border-color:#b9cec4;font-size:18px;font-weight:600}
   .nav.open>a[href$="/our-work/"]::after{content:'See what we do  ↗';font-size:13px;font-weight:500;color:#315a73}
   .nav.open>a.button{grid-column:1 / -1;width:100%;min-height:60px;border-radius:14px;font-size:15px;letter-spacing:.01em}
+  .nav.open>a:not(.brand):not(.button)::before{counter-increment:none;content:'';min-width:0}
+  .nav.open>a[href$="/contact/"]{background:#f2e7df;border-color:#d6b8a8;font-weight:600}
 }
 /* Distinctive mobile mode: an editorial foundation index. */
 @media(max-width:900px){
