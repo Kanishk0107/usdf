@@ -105,6 +105,12 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 .nav>a[href$="/search/"]{display:none!important}
 .nav>a[href$="/our-work/"]{display:none!important}
 @media(max-width:900px){
+  .nav.open{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:14px}
+  .nav.open .brand{grid-column:1 / 3;grid-row:1;max-width:none;overflow:visible}
+  .nav.open .brand span{font-size:18px;line-height:1.05;overflow:visible}
+  .nav.open .menu-toggle{grid-column:3;grid-row:1;justify-self:end}
+  .nav.open>a[href$="/about/"],.nav.open>a[href$="/transparency/"],.nav.open>a[href$="/get-involved/"],.nav.open>a[href$="/contact/"],.nav.open>a[lang],.nav.open>a.button{grid-column:span 1;min-height:72px;padding:14px 12px;font-size:14px}
+  .nav.open>a.button{display:flex;align-items:center;justify-content:center;text-align:center}
   .nav.open>a[href$="/our-work/"]{display:none!important}
   .nav.open .nav-disclosure{position:relative;padding-right:48px}
   .nav.open .nav-disclosure::after{content:'';position:absolute;right:20px;top:50%;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-65%) rotate(45deg);transition:transform 500ms var(--usdf-ease)}
