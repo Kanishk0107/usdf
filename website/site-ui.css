@@ -101,6 +101,11 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 }
 @keyframes usdf-panel-open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open .mega:not([hidden]){animation:none}}
+/* Responsive media: preserve complete artwork and never crop text-bearing images. */
+img,picture{max-width:100%}
+.card img,.hub-card img{display:block;width:100%;height:auto;aspect-ratio:16 / 10;object-fit:contain;background:#edf2ef}
+.split img,.article>img,.hub-cover,.hub-feature img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+@media(max-width:600px){.card img,.hub-card img{aspect-ratio:16 / 10}.split img,.article>img,.hub-cover,.hub-feature img{height:auto;max-height:none}}
 /* Navigation IA: focus areas own the dropdown; utility search is intentionally removed. */
 .nav>a[href$="/search/"]{display:none!important}
 .nav>a[href$="/our-work/"]{display:none!important}
