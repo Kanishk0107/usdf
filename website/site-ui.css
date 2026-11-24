@@ -105,6 +105,12 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 .nav>a[href$="/search/"]{display:none!important}
 .nav>a[href$="/our-work/"]{display:none!important}
 @media(max-width:900px){
+  .nav.open>a[href$="/our-work/"]{display:none!important}
+  .nav.open .nav-disclosure{position:relative;padding-right:48px}
+  .nav.open .nav-disclosure::after{content:'';position:absolute;right:20px;top:50%;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-65%) rotate(45deg);transition:transform 500ms var(--usdf-ease)}
+  .nav.open .nav-disclosure[aria-expanded="true"]::after{transform:translateY(-20%) rotate(225deg)}
+  .nav.open .brand{min-width:0;max-width:calc(100% - 60px)}
+  .nav.open .brand span{min-width:0;font-size:19px;white-space:nowrap}
   .nav.open>.nav-disclosure{grid-column:1 / -1;order:0}
   .nav.open>a[href$="/about/"],.nav.open>a[href$="/transparency/"],.nav.open>a[href$="/get-involved/"],.nav.open>a[href$="/contact/"]{grid-column:span 1;display:flex}
   .nav.open .mega:not([hidden]){grid-template-columns:1fr 1fr}
