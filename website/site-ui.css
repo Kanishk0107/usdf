@@ -85,6 +85,22 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 }
 @keyframes usdf-menu-rise{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open>a:not(.brand):not(.button){animation:none}}
+/* Distinctive mobile mode: an editorial foundation index. */
+@media(max-width:900px){
+  .nav.open{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:14px;border-radius:24px}
+  .nav.open::before{display:block;grid-column:1 / -1;grid-row:2;content:'Explore the foundation';padding:8px 4px 2px;color:#6b8790;font-family:Outfit,sans-serif;font-size:13px;letter-spacing:.02em}
+  .nav.open .brand{grid-column:1;grid-row:1}
+  .nav.open .menu-toggle{grid-column:2;grid-row:1;justify-self:end}
+  .nav.open>a:not(.brand):not(.button){grid-column:auto;grid-row:auto;display:grid;grid-template-columns:28px 1fr;align-content:space-between;justify-content:initial;min-height:92px;padding:14px 12px;border:1px solid rgba(23,52,71,.14);border-radius:14px;background:rgba(255,255,255,.42);font-size:15px;line-height:1.2;animation:usdf-index-enter 300ms var(--usdf-ease) both}
+  .nav.open>a:not(.brand):not(.button)::before{grid-column:1;grid-row:1 / span 2;align-self:start;min-width:0;content:'0' counter(mobile-nav);font-size:10px;color:#78909a}
+  .nav.open>a:not(.brand):not(.button)::after{grid-column:2;grid-row:2;justify-self:end;align-self:end;content:'↗';font-size:16px}
+  .nav.open>a[lang]{grid-column:1;min-height:56px;display:flex;align-items:center;gap:10px;font-size:13px}
+  .nav.open>a[lang]::before{content:'↔';font-size:15px}
+  .nav.open>a[lang]::after{display:none}
+  .nav.open>a.button{grid-column:2;min-height:56px;display:flex;align-items:center;justify-content:center;margin:0;border-radius:14px;font-size:14px}
+}
+@keyframes usdf-index-enter{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.nav.open>a:not(.brand):not(.button){animation:none}}
 /* Wordmark lockup: compact first line, readable full name, no clipping. */
 .nav .brand,body:has(.hero) .nav .brand{font-size:22px;font-weight:600;line-height:1.05;letter-spacing:-.035em;white-space:nowrap;align-items:center}
 .nav .brand small,body:has(.hero) .nav .brand small{font-size:12px;font-weight:500;line-height:1.15;letter-spacing:-.01em;max-width:none;margin-top:3px}
