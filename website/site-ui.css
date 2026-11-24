@@ -86,6 +86,9 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 @keyframes usdf-menu-rise{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open>a:not(.brand):not(.button){animation:none}}
 @media(max-width:900px){
+  .nav .menu-toggle{display:flex!important;flex:0 0 48px;margin-left:auto;position:relative;z-index:4}
+  .nav .brand{min-width:0;max-width:calc(100% - 60px);overflow:hidden;margin-right:0}
+  .nav .brand span{min-width:0;overflow:hidden}
   .nav.open .nav-disclosure{grid-column:1 / -1;display:flex;align-items:center;justify-content:space-between;min-height:58px;padding:14px 18px;border:1px solid rgba(23,52,71,.16);border-radius:16px;background:#f4eee8;color:#173447;font-size:16px;font-weight:600;text-align:left}
   .nav.open .nav-disclosure span{font-size:24px;font-weight:400;line-height:1}
   .nav.open .mega:not([hidden]){grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0;padding:0;background:transparent;border:0;box-shadow:none;animation:usdf-panel-open 500ms var(--usdf-ease) both}
