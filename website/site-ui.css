@@ -60,6 +60,13 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 @supports not (backdrop-filter:blur(1px)){.nav,body:has(.hero) .nav,.nav.open,body:has(.hero) .nav.open,.mega{background:#e9f0f8}}
 @media(prefers-reduced-transparency:reduce){.nav,body:has(.hero) .nav,.nav.open,body:has(.hero) .nav.open,.mega{background:#e9f0f8;backdrop-filter:none;-webkit-backdrop-filter:none}}
 @media(prefers-reduced-motion:reduce){#header,body:has(.hero) #header{transition:none}}
+/* USDF design tokens: civic warmth, documentary imagery, quiet navigation. */
+:root{--usdf-ink:#173447;--usdf-ink-deep:#09232a;--usdf-paper:#f8f6f0;--usdf-mist:#e6eee9;--usdf-blue:#315a73;--usdf-coral:#d97962;--usdf-space-1:8px;--usdf-space-2:16px;--usdf-space-3:24px;--usdf-space-4:32px;--usdf-radius-sm:10px;--usdf-radius-md:18px;--usdf-motion-fast:180ms;--usdf-motion-slow:700ms;--usdf-ease:cubic-bezier(.22,.8,.25,1)}
+.hero>img{animation:usdf-photo-drift 18s ease-in-out infinite alternate;transform-origin:62% 50%}
+.hero .wrap{animation:usdf-hero-enter var(--usdf-motion-slow) var(--usdf-ease) both}
+@keyframes usdf-photo-drift{from{transform:scale(1.015) translate3d(0,0,0)}to{transform:scale(1.045) translate3d(-.5%, -0.4%, 0)}}
+@keyframes usdf-hero-enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.hero>img,.hero .wrap{animation:none}}
 /* Wordmark lockup: compact first line, readable full name, no clipping. */
 .nav .brand,body:has(.hero) .nav .brand{font-size:22px;font-weight:600;line-height:1.05;letter-spacing:-.035em;white-space:nowrap;align-items:center}
 .nav .brand small,body:has(.hero) .nav .brand small{font-size:12px;font-weight:500;line-height:1.15;letter-spacing:-.01em;max-width:none;margin-top:3px}
