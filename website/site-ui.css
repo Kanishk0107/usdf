@@ -97,6 +97,13 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 }
 @keyframes usdf-panel-open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open .mega:not([hidden]){animation:none}}
+/* The disclosure is a label, not an icon control; the panel itself is the affordance. */
+.nav-disclosure span{display:none!important}
+@media(min-width:901px){
+  .nav{position:relative}
+  .nav>.mega:not([hidden]){position:absolute;top:calc(100% + 12px);right:190px;width:420px;margin:0;padding:18px;display:grid;grid-template-columns:1fr 1fr;gap:8px;border-radius:18px}
+  .nav>.mega a{min-height:64px;display:flex;align-items:end;padding:14px;border:1px solid rgba(23,52,71,.12);border-radius:12px;background:rgba(255,255,255,.62);color:#20394e}
+}
 @media(max-width:900px){
   .nav.open::before{content:'Choose a starting point'}
   .nav.open>a[href$="/our-work/"]{grid-column:1 / -1;min-height:76px;background:#e6eee9;border-color:#b9cec4;font-size:18px;font-weight:600}
