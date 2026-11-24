@@ -87,6 +87,9 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 @media(prefers-reduced-motion:reduce){.nav.open>a:not(.brand):not(.button){animation:none}}
 @media(max-width:900px){
   .nav:not(.open){flex-wrap:nowrap!important;align-items:center}
+  .nav:not(.open) .nav-disclosure{display:none!important}
+  .nav:not(.open) .brand{max-width:calc(100% - 60px);overflow:visible}
+  .nav:not(.open) .brand span{overflow:visible;white-space:nowrap}
   .nav .menu-toggle{display:flex!important;flex:0 0 48px;margin-left:auto;position:relative;z-index:4}
   .nav .brand{min-width:0;max-width:calc(100% - 60px);overflow:hidden;margin-right:0}
   .nav .brand span{min-width:0;overflow:hidden}
