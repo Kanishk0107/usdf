@@ -101,6 +101,15 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 }
 @keyframes usdf-panel-open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.nav.open .mega:not([hidden]){animation:none}}
+/* Navigation IA: focus areas own the dropdown; utility search is intentionally removed. */
+.nav>a[href$="/search/"]{display:none!important}
+.nav>a[href$="/our-work/"]{display:none!important}
+@media(max-width:900px){
+  .nav.open>.nav-disclosure{grid-column:1 / -1;order:0}
+  .nav.open>a[href$="/about/"],.nav.open>a[href$="/transparency/"],.nav.open>a[href$="/get-involved/"],.nav.open>a[href$="/contact/"]{grid-column:span 1;display:flex}
+  .nav.open .mega:not([hidden]){grid-template-columns:1fr 1fr}
+  .nav.open .mega a{min-height:68px}
+}
 /* The disclosure is a label, not an icon control; the panel itself is the affordance. */
 .nav-disclosure span{display:none!important}
 @media(min-width:901px){
