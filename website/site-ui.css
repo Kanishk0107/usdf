@@ -202,3 +202,13 @@ h1,h2,h3,.nav .brand{font-family:Outfit,'Noto Sans Devanagari',sans-serif;font-w
 @media(max-width:900px) and (prefers-reduced-motion:no-preference){.nav.open>a:not(.brand),.nav.open .nav-group{animation:menu-item-in .3s cubic-bezier(.22,1,.36,1) both}.nav.open>a:nth-of-type(3){animation-delay:25ms}.nav.open>a:nth-of-type(4){animation-delay:50ms}.nav.open>a:nth-of-type(5){animation-delay:75ms}.nav.open>a:nth-of-type(6){animation-delay:100ms}}
 @keyframes menu-item-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.community-links{animation:none;stroke-dashoffset:0}.community-core,.community-node{animation:none;opacity:1}}
+/* Final mobile menu refinement: no numbering, every destination reads as a button. */
+@media(max-width:900px){
+  .nav{max-height:76px;overflow:hidden;transition:max-height 900ms var(--usdf-ease),background 500ms ease,box-shadow 500ms ease}
+  .nav.open{max-height:calc(100dvh - 32px);overflow:auto}
+  .nav.open>a:not(.brand):not(.button)::before{counter-increment:none!important;content:none!important;display:none!important}
+  .nav.open>a:not(.brand):not(.button){display:flex;align-items:center;justify-content:space-between;min-height:76px;padding:16px 18px;border:1px solid rgba(23,52,71,.16);border-radius:16px;background:rgba(255,255,255,.58);font-size:16px;font-weight:500;box-shadow:inset 0 2px 0 rgba(255,255,255,.65)}
+  .nav.open>a[href*="/our-work/"]{grid-column:1 / -1;min-height:82px;background:#e6eee9;border-color:#b9cec4;font-size:18px;font-weight:600}
+  .nav.open>a[href*="/our-work/"]::after{content:'See what we do  ↗';font-size:13px;font-weight:500;color:#315a73}
+  .nav.open>a[href*="/contact/"]{background:#f2e7df;border-color:#d6b8a8;font-weight:600}
+}
