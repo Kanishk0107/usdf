@@ -49,7 +49,7 @@ footer{margin:24px;border-radius:30px;background:#e8f0eb;color:#294d43;border:1p
 .nav,body:has(.hero) .nav,.nav.open,body:has(.hero) .nav.open{max-width:1180px;padding:10px 16px;min-height:76px;border-radius:40px;background:linear-gradient(130deg,rgba(244,249,255,.68),rgba(222,233,245,.38) 48%,rgba(238,244,253,.52));border:1px solid rgba(255,255,255,.86);backdrop-filter:blur(30px) saturate(130%);-webkit-backdrop-filter:blur(30px) saturate(130%);box-shadow:inset 0 1px 1px #fff,inset 0 -1px 1px #bed0e54d,0 8px 28px #263b5112,0 2px 6px #263b5108;color:#253b50}
 .nav::before{background:linear-gradient(120deg,#ffffff50,transparent 38%,#d4e3f01a 70%,#ffffff38)}
 .nav .brand,body:has(.hero) .nav .brand{font-size:34px;font-weight:800;letter-spacing:-.045em;line-height:1.1;color:#243b50;gap:11px}
-.nav .brand img,body:has(.hero) .nav .brand img{width:44px;height:44px}.nav .brand small{display:none}
+.nav .brand img,body:has(.hero) .nav .brand img{width:44px;height:44px}.nav .brand small{display:block;max-width:230px;font-size:14px;line-height:1.05;letter-spacing:-.02em}
 .nav>a:not(.brand):not(.button),.nav-disclosure{color:#294358}
 .nav>a:not(.brand):not(.button):is(:hover,:focus-visible),.nav>a[aria-current=page],.nav-disclosure:is(:hover,[aria-expanded=true]){background:linear-gradient(135deg,#ffffff9c,#cfdfef69);box-shadow:inset 0 1px 0 #fff,inset 0 0 0 1px #ffffff80,0 3px 9px #27415d0a;color:#16334e}
 .nav .button.red,body:has(.hero) .nav .button.red{background:#314e68;color:white;box-shadow:inset 0 1px 0 #ffffff30,0 3px 9px #263b5110}
