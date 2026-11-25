@@ -251,6 +251,25 @@ h1,h2,h3,.nav .brand{font-family:Outfit,'Noto Sans Devanagari',sans-serif;font-w
 @media(max-width:900px) and (prefers-reduced-motion:no-preference){.nav.open>a:not(.brand),.nav.open .nav-group{animation:menu-item-in .3s cubic-bezier(.22,1,.36,1) both}.nav.open>a:nth-of-type(3){animation-delay:25ms}.nav.open>a:nth-of-type(4){animation-delay:50ms}.nav.open>a:nth-of-type(5){animation-delay:75ms}.nav.open>a:nth-of-type(6){animation-delay:100ms}}
 @keyframes menu-item-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.community-links{animation:none;stroke-dashoffset:0}.community-core,.community-node{animation:none;opacity:1}}
+/* Desktop navigation: give each utility link a clear hit area and a calmer hierarchy. */
+@media(min-width:901px){
+  body:has(.hero) .nav{gap:8px}
+  body:has(.hero) .nav>a:not(.brand):not(.button),
+  body:has(.hero) .nav .nav-disclosure,
+  body:has(.hero) .nav .nav-group>a{
+    display:inline-flex;
+    align-items:center;
+    min-height:40px;
+    padding:10px 12px;
+    border-radius:10px;
+    line-height:1.2;
+    text-decoration:none;
+    white-space:nowrap;
+  }
+  body:has(.hero) .nav .nav-group{display:flex;align-items:center;gap:4px}
+  body:has(.hero) .nav>a[lang]{margin-left:4px}
+  body:has(.hero) .nav .button.red{margin-left:8px;padding:12px 20px}
+}
 /* Final mobile menu refinement: no numbering, every destination reads as a button. */
 @media(max-width:900px){
   .nav{max-height:76px;overflow:hidden;transition:max-height 900ms var(--usdf-ease),background 500ms ease,box-shadow 500ms ease}
